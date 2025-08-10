@@ -1,66 +1,55 @@
-Counter & List App
-A simple and interactive React application featuring a counter, a sortable number list, and persistent storage using localStorage. This project was built to demonstrate core React concepts like state management, component composition, and handling user events.
+📊 Counter & List App
+A simple and interactive React application featuring a counter, a sortable number list, and persistent storage using localStorage.
+Built to demonstrate core React concepts like state management, component composition, and event handling.
 
 🌐 Live Demo
-You can view the live deployed version of this application on Vercel:
-
-https://your-vercel-link.vercel.app/
+🔗 View the live app on Vercel
 
 ✨ Features
-Dynamic Counter: Increment and decrement a number. The count cannot go below zero.
+Dynamic Counter ➡ Increment and decrement a number. The count never goes below zero.
 
-List Management: Add the current number from the counter to a list. The app prevents duplicate entries.
+List Management ➡ Add the current number from the counter to a list (no duplicates allowed).
 
-Persistent Storage: Your number list is automatically saved to the browser's localStorage, so your data will be there when you return.
+Persistent Storage ➡ Saves your list in localStorage, so it stays even after refreshing.
 
-Sorting: Toggle the list between ascending and descending order with a single click.
+Sorting ➡ Toggle between ascending and descending order with a single click.
 
-Reset: Instantly clear the list and start over.
+Reset ➡ Instantly clear the list and start fresh.
 
-Clean, Responsive UI: A simple and intuitive layout that works well on different screen sizes.
+Responsive UI ➡ Works smoothly on different screen sizes.
 
-🚀 How to Run Locally
-To get a local copy up and running, follow these simple steps.
+🚀 Run Locally
+Follow these steps to set up the project on your machine:
 
-Clone the repository
+1️⃣ Clone the repository
 
-Bash
-
+bash
+Copy
+Edit
 git clone https://github.com/your-username/raiqa_health_assignment.git
-Navigate to the project directory
+2️⃣ Navigate to the project directory
 
-Bash
-
+bash
+Copy
+Edit
 cd raiqa_health_assignment
-Install NPM packages
+3️⃣ Install dependencies
 
-Bash
-
+bash
+Copy
+Edit
 npm install
-Start the development server
+4️⃣ Start the development server
 
-Bash
-
+bash
+Copy
+Edit
 npm start
-The app will open automatically in your browser at http://localhost:3000.
+The app will open at http://localhost:3000 in your browser.
 
 🛠️ Tech Stack
-React.js: A JavaScript library for building user interfaces.
+React.js → UI building
 
-CSS3: For custom styling and layout.
+CSS3 → Styling & layout
 
-localStorage API: For saving data in the browser.
-
-3. Update on GitHub
-After saving the changes to your README.md file, commit and push them just like before:
-
-Bash
-
-# Stage the changed README file
-git add README.md
-
-# Commit the change with a message
-git commit -m "Add Vercel deployment link to README"
-
-# Push the commit to GitHub
-git push origin main
+localStorage API → Data persistence
