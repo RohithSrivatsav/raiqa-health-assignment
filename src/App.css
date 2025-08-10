@@ -1,38 +1,166 @@
-.App {
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  overflow: hidden; 
+}
+
+
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  height: calc(100vh - 80px);
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  width:500px;
+}
+
+.list-section {
+  flex: 1; 
+  min-height: 0; 
+}
+
+
+.card h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.counter-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 5px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.list-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+.list-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.number-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.empty-message {
+  flex-grow: 1;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: #888888;
+}
+
+
+button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  border-color: #bbbbbb;
+}
+
+.btn-add {
+  background-color: #28a745;
   color: white;
+  border: none;
+  padding: 12px 24px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-add:hover {
+  background-color: #218838;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-reset {
+  background-color: #fd7e14;
+  color: white;
+  border: none;
 }
+
+.btn-reset:hover {
+  background-color: #e36d0a;
+}
+
+
+.number-list::-webkit-scrollbar {
+  width: 6px;
+}
+.number-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.number-list::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+.number-list::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+.card-header{
+  text-align:center;
+  font-size: 2rem;
+}
+
