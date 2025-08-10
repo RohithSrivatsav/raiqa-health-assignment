@@ -3,9 +3,10 @@ A simple and interactive React application featuring a counter, a sortable numbe
 Built to demonstrate core React concepts like state management, component composition, and event handling.
 
 🌐 Live Demo
-🔗 View the live app on Vercel
+🔗 https://raiqa-health-assignment-bice.vercel.app/
 
 ✨ Features
+
 Dynamic Counter ➡ Increment and decrement a number. The count never goes below zero.
 
 List Management ➡ Add the current number from the counter to a list (no duplicates allowed).
@@ -36,12 +37,15 @@ npm install
 4️⃣ Start the development server
 
 npm start
+
 The app will open at http://localhost:3000 in your browser.
 
 🛠️ Tech Stack
+
 React.js → UI building
 
 CSS3 → Styling & layout
 
 localStorage API → Data persistence
+
 
