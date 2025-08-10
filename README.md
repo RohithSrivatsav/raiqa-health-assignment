@@ -23,27 +23,18 @@ Follow these steps to set up the project on your machine:
 
 1️⃣ Clone the repository
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/raiqa_health_assignment.git
+
 2️⃣ Navigate to the project directory
 
-bash
-Copy
-Edit
 cd raiqa_health_assignment
+
 3️⃣ Install dependencies
 
-bash
-Copy
-Edit
 npm install
+
 4️⃣ Start the development server
 
-bash
-Copy
-Edit
 npm start
 The app will open at http://localhost:3000 in your browser.
 
@@ -53,3 +44,4 @@ React.js → UI building
 CSS3 → Styling & layout
 
 localStorage API → Data persistence
+
